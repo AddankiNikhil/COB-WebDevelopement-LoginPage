@@ -1,0 +1,145 @@
+body,html{
+height:100%;
+margin:0;
+}
+body{
+    background-image:url('images.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.tot {
+display:flex;
+justify-content:center;
+margin-top: 10%;
+min-height:100%;
+}
+.left{
+
+    height:650px;
+    width:650px;
+    background-color:aliceblue;
+    box-shadow: 10px aliceblue;
+    margin-left: 120px;
+}
+.left h1{
+    text-align:center;
+    margin-top:80px;
+}
+.right{
+    height:650px;
+    width:650px;
+    background-color:rgb(15, 182, 126) ;
+    margin-right:120px;
+    text-align:center;
+
+}
+.login-details .pass{
+   width:90%;
+   height:70px;
+   margin-top: 20px;
+   border-radius:10px;
+   font-size: 20px;
+
+}
+
+.login-details .id{
+    width:90%;
+    height:70px;
+    margin-top: 70px;
+    border-radius:10px; 
+    font-size: 20px;
+
+}
+ .sub{
+    width:100px;
+    height:50px;
+    margin-top:95px;
+    margin-left:30px;
+    width:90%;
+    background-color:rgb(15, 182, 126);
+    font-size: 20px;
+
+ }
+.login-details{
+    text-align:center;
+}
+#Result{
+    text-align:center;
+    height:25px;
+    width:90%;
+    height:50px;
+    margin-left:30px;
+    border-radius:20px;
+    font-size: 20px;
+    
+
+}
+
+/*registration part*/
+.reg-head{
+    margin-left:250px;
+    margin-top:120px;
+    padding-bottom:20px;
+    font-weight:20px;
+}
+.reg-mail{
+    margin-left:10px;
+    margin-top:20px;
+    width:90%;
+    height:70px;
+    border-radius:10px;
+    font-size: 20px;
+
+}
+#reg-uid{
+    margin-left:10px;
+    margin-top:20px;
+    width:90%;
+    height:70px;
+    border-radius:10px;
+    font-size: 20px;
+
+}
+#reg-pass{
+    margin-left:10px;
+    margin-top:20px;
+    width:90%;
+    height:70px;
+    border-radius:10px;
+    font-size: 20px;
+}
+#reg-sign-up{
+    border-radius: 20px;
+    margin-top:50px;
+    margin-left:180px;
+    width:40%;
+    height:50px;
+    background-color:rgb(18, 229, 159);
+    color:white;
+    font-size:18px;
+}
+
+
+/*Right side div*/
+.right{
+    color:white;
+}
+.heading {
+    text-align:center;
+    font-size:30px;
+    margin-top:210px;
+}
+
+ #Message{
+    font-size:25px; 
+}
+.sign_up{
+    border-radius: 20px;
+    margin-top:30px;
+    font-size:16px;
+    width:40%;
+    height:60px;
+    background-color:rgb(18, 229, 159);
+    color:white;
+}

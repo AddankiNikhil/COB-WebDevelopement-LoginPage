@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="fevi.png">
+</head>
+
+
+<body>
+    <div class="tot">
+        <div class="left">
+            <h1>SignIn</h1>
+            <form class="login-details">
+                <input type="text" placeholder="Enter userid" class="id" id="uid">
+                    <br><br>
+                <input type="password" placeholder="password" class="pass" id="pass">    
+                <br><br>
+                <script src="script.js"></script>
+            </form>
+            <button  class="sub"  id="sub" onclick="logger()">SignIn</button>
+            <p id="Result"></p>
+
+        </div>
+        <div class="right">
+                <h1 class="heading" id="heading">Welcome to Our Site<br></h1>
+                <p id="Message">
+            <br>Welcome Back!We are happy to have you 
+            <br>here .It's Great to have You back again.We hope you 
+            <br>had a safe and enjoyable time away   
+            </p>
+        
+            <button class="sign_up" id="log_sign_up" onclick="details()" >Don't Have an account Yet? Sign UP</button> 
+        </div>
+    </div>
+</body>
+</html>
